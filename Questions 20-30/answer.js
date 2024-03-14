@@ -407,47 +407,7 @@ alert(Number(num.toFixed(2)));
 
 console.table(num.toFixed(2), typeof num);
 
-// ************************************ Next Chapter ************************************
-
-// Chapter 31 - 34 (Date & Time)
-
-// 1. Code a statement that creates a new Date object and assigns it to
-// dObj, which hasn't been declared beforehand.
-
-var dObj = new Date();
-
-console.log(dObj);
-
-// 2. Code a statement that creates a new Date object, converts it to a
-// string, and assigns the string to dStr, which hasn't been declared
-// beforehand.
-var date = new Date();
-
-var dStr = date.toString();
-
-// 3. Code a statement that extracts the day of the week from a Date
-// object represented by d and assigns it to day, which hasn't been
-// declared beforehand.
-
-var d = new Date().toString();
-
-var day = d.slice(0, 4);
-
-console.log(day);
-
-// 4. The day has been extracted from the Date object and assigned to
-// d. The names of the days of the week have been assigned to the
-// array dayNames. Alert the current day with array index.
-
-var d = new Date().getDay();
-var dayNames = ["Sun", "Mon", "Tues", "Wed", "Thus", "Fri", "Sat"];
-
-var currentDay = dayNames[d];
-console.log(currentDay);
-
-// 5. Extract all parts of the Date and Time and assign it to the variable
-// which has not been declared beforehand.
-
-var date = new Date().toString();
 
 
+
+// ****************** 10 Chapters Done (20-30) *************************

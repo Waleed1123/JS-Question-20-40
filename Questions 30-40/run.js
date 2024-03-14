@@ -336,9 +336,190 @@
 // }
 // arrayFun("name", "add", 0, true);
 
+// function numberSum (firstNum, secondNum){
+//     var result = firstNum + secondNum;
+//     console.log(result);
+//   }
+//   numberSum(25,96);
 
-function numberSum (firstNum, secondNum){
-    var result = firstNum + secondNum;
-    console.log(result);
-  }
-  numberSum(25,96);
+// function average() {
+//   var a = 10;
+//   var b = 26;
+//   var c = (a * b) / 100;
+//   return c;
+// }
+// var ans = average();
+
+// console.log(ans);
+
+// function valueReturn() {
+//   var a = 23;
+//   var b = 68;
+//   var c = a + b;
+//   return c;
+// }
+// var f = valueReturn();
+// console.log(f);
+
+// var word = prompt("Enter Word");
+
+// function counter() {
+//   word = word.length;
+
+//   console.log(word);
+// }
+
+// counter();
+
+// var changeYear = +prompt("Enter Your Year");
+
+// function year() {
+//   var date = new Date();
+//   var d = date.setFullYear(changeYear);
+
+//   console.log(d);
+// }
+
+// year();
+// console.log();
+// function ageCalcu() {
+//   var userYear = prompt("Enter Your Date of Birth", "feb 28, 2006");
+//   var userAge = new Date(userYear);
+//   var userAgeMili = userAge.getTime();
+
+//   var today = new Date();
+//   var todayMili = today.getTime();
+
+//   var diff = todayMili - userAgeMili;
+
+//   var accurateAge = Math.floor(diff / (1000 * 60 * 60 * 24 * 30 * 12));
+
+//   console.log(accurateAge);
+// }
+// ageCalcu();
+
+// var array = [
+//   "zaid",
+//   "haris",
+//   "raza",
+//   "abubakar",
+//   "hassan",
+//   "hussain",
+//   "fatima",
+// ];
+// var found = false;
+
+// function findVal() {
+//   var userName = prompt("Enter Your Name to check list.");
+//   for (var i = 0; i < array.length; i++) {
+//     var finalName = userName.toLowerCase();
+//     if (array[i] === finalName) {
+//       found = true;
+//       alert("User Name Found!");
+//       break;
+//     }
+//   }
+//   if (!found) {
+//     alert("User Name Not Found");
+//   }
+// }
+// findVal();
+
+// function wordCount() {
+//   var string = prompt("Enter String to check Number.");
+//   return string.repeat(10);
+// }
+
+// var array = ["a", "b", "c", "d", "e"];
+
+// function reverse() {
+//   return array.reverse();
+// }
+// var x = reverse();
+// console.log(x);
+
+// function usage() {
+//   var a = 10; // This veriable is brasis {} Scoped AKA local scope
+// }
+// console.log(a); // we can't access that veriable here.
+
+// var a = 24; // Now this is a global veriable means we can use it anywhere in our code.
+
+// function add(b) {
+//   console.log(a + b);
+// }
+// add(25);
+
+// var myName = "ahmed";
+
+// switch (myName) {
+//   case "Waleed":
+//     alert("User Name is Waleed");
+//     break;
+//   case "ahmed":
+//     console.log("Welcome Ahmed");
+//     break;
+//   default:
+//     alert("Not a User");
+//     break;
+// }
+
+// var cityName = prompt("enter your city name");
+
+// switch (cityName) {
+//   case "karachi":
+//     alert("The city of lights");
+//     break;
+//   case "lahore":
+//     alert("Beautiful city");
+//     break;
+//   case "islamabad":
+//     alert("Capital of Pakistan");
+//     break;
+//   default:
+//     alert("City not found!");
+// }
+
+// function changeMonth(month) {
+//   var date = new Date();
+//   var change = date.setMonth(month);
+// }
+// changeMonth(8);
+
+// var date = new Date();
+// console.log(date);
+
+// var mydate = new Date("2005");
+// console.log(mydate);
+
+// function changeMonth(month) {
+//   var date = new Date(month);
+//   console.log(date);
+// }
+// changeMonth("2008");
+
+// var mins = prompt("Enter Mins");
+
+// function addMins() {
+//   var date = new Date();
+//   date.setMinutes(mins);
+//   console.log(date);
+// }
+// addMins();
+
+// var hours = prompt("Enter No of Hours you wanna Add");
+
+// function setHours() {
+//   var date = new Date();
+//   date.setHours(hours);
+//   console.log(date);
+// }
+// setHours();
+
+var arr = [1, 2, 3, 4, 5, 6];
+
+function addArr() {
+  arr.splice();
+  console.log(arr);
+}
+addArr();
